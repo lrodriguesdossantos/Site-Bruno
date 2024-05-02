@@ -43,3 +43,26 @@ padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--azul);
 }
+
+@media  (max-width: 680px){
+    
+  
+    .horario{
+        font-size:30px
+    }
+
+    .midia{
+        font-size:30px
+
+    }
+    .contato{
+        font-size:30px
+
+    }
+    .horario h3{
+        font-size: 12px;
+    }
+    .horario i{
+        font-size: 30px;
+    }
+}
