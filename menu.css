@@ -7,12 +7,13 @@ menu img{
 }
 
 menu{
-   
+   width: 100%;
+   height: 150px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 0px;
     margin: 0px;
     
 }
@@ -33,19 +34,49 @@ menu ul li{
     margin: 0;
 }
 
+#menu ul:hover{
+   background-color: var(--cinza);
+   cursor: pointer;
+   
+}
 #menu-amburg{
     color:var(--branco);
     font-size: 50px;
+    display: none;
+    text-align: center;
 }
+@media  (max-width: 680px){
+ menu img{
+    width: 50%;
+    height: 10%;
+ }
 
-@media only screem and ( Max-width: 680px){
+ menu{
+   width: 100%;
+   height: 100%;
+   display: block;
+   text-align: center;
   
-    menu{
-        margin: 0px;
-        padding: 0px;
-        display: grid;
-      
+   
+ }
 
-    }
+ menu  ul{
+    display: grid;
+    color: var(--cinza);
+        
+ }
+
+
+ #menu-amburg{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center
     
+ }
+
+   
+ menu ul li{
+    display: none;
+ }
 }
