@@ -2,188 +2,214 @@
 :root{
   --preto: black;
   --verde: green; 
-  --cinza: #464343d7;
+  --cinza: #030303ad;
   --branco: rgba(247, 242, 242, 0.863);
   --azul:   rgba(50, 50, 228, 0.945);  
   --indigo: indigo;
   --indigo-claro:rgba(112, 66, 145, 0.87);
 }
 
-
 body{
-  margin: 0px;
+  margin: 10px;
   padding: 0px;
-  width: 100%;
-  height: 100%;
-  background-color: var(--preto);
-  align-items: center;
-}
-
-
-
-nav{
-  max-width: 100%;
-  height: 450px;
-  background-image: url(imagens/nav-G.jpg);
- justify-items: center;
-}
-
-
-
-nav h1{
-font-family: Arial, Helvetica, sans-serif;
-font-size: 76px;
-color: var(--branco);
-margin: 0px;
-padding: 0px;
-
-text-align: center;
-}
-
-article{
- width: 100%; 
- margin: 0px;
- padding: 10px;
-display: grid;
-text-align: center;
-text-align: center;
-grid-template-areas: 
-"fase1 fase2 fase3 fase4" 
-"fase5 fase5 fase5 fase5"
-"fase6 fase7 fase8 fase9"
-"footer footer footer footer"
-;
-
-
-}
-article div{
-  display: grid;
-  place-items: center;
-  background-image: url(imagens/609acdf47463b126041a7cb771d21440.png);
-  margin: 20px;
-  padding: 0px;
-  width: 400px;
-  height: 600px;
-  
-}
-
-
-
-
- .fase5{
-  grid-area: fase5;
-  width: 100%;
-  height: 300px;
+  width: 100vw;
+  height: 100vh;
   background-color: var(--preto);
  
- }
+}
 
- .fase5 ul{
+nav img{
+  width: 100%;
   margin: 0px;
   padding: 0px;
+ 
+}
+
+
+
+header{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+ 
+}
+ 
+article{
+  justify-items: center;
+  gap: 10px;
+  height: 100%;
+  width: 100%;
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 
- }
+}
+ 
 
- .fase5 ul a{
-  font-size: 26px;
-  font-family:  Arial, Helvetica, sans-serif;
+article div{
+ 
+  border-color: var(--branco);
+  margin: 20px;
+  border-radius: 2rem;
+  width: 100%;
+  width: 390px;
+  height: 540px;
+  box-shadow: 10px 10px 10px 10px  rgba(135, 18, 231, 0.26);
+  border: groove;
+}
+
+
+article div h2{
+  margin: 0px;
+  padding: 10px;
+  width: 370px;
+  height: 520px;
+  background-color: var(--cinza);
+  display: none; 
+  border-radius: 2rem;
+  
+}
+
+article div p{
+  
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  color: var(--branco);
+  width: 37b0px;
+  height: 390px;
+}
+
+article li{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
   color: var(--branco);
   list-style: none;
-
-  }
-
+  padding: 10px;
   
-
-footer{
-  grid-area: footer;
-  max-width: 100%;
-  height: 200px;
 }
 
 
-
-div h2,
-p{
-  display: none  ;
-
+article div:hover{
+  cursor: pointer;
+  font-size: 2rem;
+  transform: translate(40px, 80px);
+  transform-origin: left;
 }
 
-h2,
-p:hover{
-  display: i;
-}
 
-div h1{
+.fase1{
   
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
-  margin: 0px;
-  color: var(--branco);
-  text-wrap: wrap;
+  background-image: url(imagens/1°fase.jpg);
+ }
+
+ .fase1:hover h2{
+  display: block;
+  
 }
 
-div a{
-  font-size: 76px;
-  margin: 20px;
-  padding: 0px;
-  color:var(--branco)
 
+ .fase2{
+  
+  background-image: url(imagens/2°fase.jpg);
+ }
 
-}
-
-div h2{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:30px;
-
-}
-
-div p{
-  margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  text-align: justify;
-
-}
-@media (max-width: 680px) {
-
-article{
+ .fase2:hover h2{
   display: block;
 
 }
 
-article div{
-  display: grid;
-  width: 360px;
-  height: 500px;
+
+ .fase3{
   
+  background-image: url(imagens/3°fase.jpg);
+ }
+
+ .fase3:hover h2{
+  display: block;
+
 }
 
 
-nav h1{
-  font-size: 100%;
-}
+ .fase4{
+   
+  background-image: url(imagens/4°fase.jpg);
+ }
 
-div h1{
-  font-size: 100%;
+ .fase4:hover h2{
+  display: block;
+
 }
 
 
 .fase5{
-  height: 600px;
-  width: 360px;
+   
+  background-image: url(imagens/5°fase.jpg);
+ }
+
+ .fase5:hover h2{
+  display: block;
+
 }
 
 
-.fase5 ul{
-  display:block;
+
+ .fase6{
+  
+  background-image: url(imagens/6°fase.jpg);
+ }
+
+ .fase6:hover h2{
+  display: block;
+
 }
 
 
-nav{
-width: 100%;
-height: 200px;
-  background-image: url(imagens/nav-M.jpg);
+
+ .fase7{
+  
+  background-image: url(imagens/7°fase.jpg);
+ }
+
+.fase7:hover h2{
+  display: block;
+
 }
+
+
+ .fase8{
+  
+  background-image: url(imagens/8°fase.jpg);
+ }
+  
+ .fase8:hover h2{
+  display: block;
+
+}
+
+
+@media (max-width: 690px){
+
+  nav img{
+    width: 100%;
+  }
+ 
+ nav{
+  width: 100%;
+
+ }  
+
+
+  article{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    width: 100%;
+  }
+
   
 }
+
+
+ 

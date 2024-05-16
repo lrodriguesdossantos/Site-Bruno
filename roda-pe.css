@@ -1,11 +1,14 @@
 
 footer{
+    height: 200px;
+    width: 100%;
     display: grid;
     background-color: var(--preto) ;
     border-color: var(--branco);
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
     align-items: center;
+    grid-area: footer;
 }
 
 
@@ -66,3 +69,5 @@ padding: 0px;
         font-size: 30px;
     }
 }
+
+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
