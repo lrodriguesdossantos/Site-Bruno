@@ -13,7 +13,7 @@ body{
   margin: 10px;
   padding: 0px;
   width: 100vw;
-  height: 100vh;
+  
   background-color: var(--preto);
  
 }
@@ -31,23 +31,21 @@ header{
   margin: 0px;
   padding: 0px;
   width: 100%;
- 
+  height: auto;
 }
  
 article{
-  justify-items: center;
   gap: 10px;
-  height: 100%;
-  width: 100%;
+  width: auto;
   display: flex;
-  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-
+  align-content: center;
+  
 }
  
 
 article div{
- 
   border-color: var(--branco);
   margin: 20px;
   border-radius: 2rem;
@@ -80,6 +78,7 @@ article div p{
   height: 390px;
 }
 
+
 article li{
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -96,7 +95,9 @@ article div:hover{
   font-size: 2rem;
   transform: translate(40px, 80px);
   transform-origin: left;
+  
 }
+
 
 
 .fase1{
@@ -106,8 +107,7 @@ article div:hover{
 
  .fase1:hover h2{
   display: block;
-  
-}
+  }
 
 
  .fase2{
@@ -117,7 +117,7 @@ article div:hover{
 
  .fase2:hover h2{
   display: block;
-
+ 
 }
 
 
@@ -128,7 +128,7 @@ article div:hover{
 
  .fase3:hover h2{
   display: block;
-
+  
 }
 
 
@@ -139,7 +139,7 @@ article div:hover{
 
  .fase4:hover h2{
   display: block;
-
+  
 }
 
 
@@ -150,7 +150,7 @@ article div:hover{
 
  .fase5:hover h2{
   display: block;
-
+  
 }
 
 
@@ -162,7 +162,7 @@ article div:hover{
 
  .fase6:hover h2{
   display: block;
-
+ 
 }
 
 
@@ -174,7 +174,7 @@ article div:hover{
 
 .fase7:hover h2{
   display: block;
-
+  
 }
 
 
@@ -185,7 +185,7 @@ article div:hover{
   
  .fase8:hover h2{
   display: block;
-
+  
 }
 
 

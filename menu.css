@@ -34,9 +34,10 @@ menu ul li{
     margin: 0;
 }
 
-#menu ul:hover{
-   background-color: var(--cinza);
+#menu ul li:hover{
+   background-color: var(--indigo-claro);
    cursor: pointer;
+   color:
    
 }
 #menu-amburg{
