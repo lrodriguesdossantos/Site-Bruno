@@ -1,73 +1,48 @@
-
 footer{
+    margin: 0px;
+    padding:0px;
     height: 200px;
     width: 100%;
-    display: grid;
-    background-color: var(--preto) ;
-    border-color: var(--branco);
-    grid-template-columns: repeat(3, 1fr);
-    text-align: center;
-    align-items: center;
-    grid-area: footer;
-}
-
-
-.midia{
-    font-size: 40px;
-  color: var(--azul);
-  
-
-
-
-
-}
-
-
-.contato{
-    font-size: 40px;
-    color: var(--azul);
+    display:flex;
+    justify-content:center;
     
 }
 
-
-
-.horario{
-margin: 0px;
-padding: 0px;
+.container{
+ width: 1200px; 
+ height: 100%;   
+ display: flex;
+ justify-content:center;
+ align-items: center;
 }
 
-.horario i{
-    font-size: 40px;
-    color: var(--azul);
+.container main{
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+i{
+    font-size: 50px;
+    color: var(--branco) ;
+    padding: 10px;
+    margin: 0px;
+   
+}
+
+.horario{
+    display: block;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+
 }
 
 .horario h3{
     margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    color: var(--branco);
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--azul);
 }
-
-@media  (max-width: 680px){
-    
-  
-    .horario{
-        font-size:30px
-    }
-
-    .midia{
-        font-size:30px
-
-    }
-    .contato{
-        font-size:30px
-
-    }
-    .horario h3{
-        font-size: 12px;
-    }
-    .horario i{
-        font-size: 30px;
-    }
-}
-
-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
